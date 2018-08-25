@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_profil_black_24dp"
+            android:title="Profil Pasien" />
+        <item
+            android:id="@+id/nav_tagihan"
+            android:icon="@drawable/ic_rincian_biaya_black_24dp"
+            android:title="Tagihan Pasien" />
+        <item
+            android:id="@+id/nav_riwayat"
+            android:icon="@drawable/ic_riwayat_black_24dp"
+            android:title="Riwayat Berobat" />
+        <item
+            android:id="@+id/nav_bed"
+            android:icon="@drawable/ic_tt_rs_black_24dp"
+            android:title="Bed Tersedia" />
+    </group>
+
+    <item android:title="Lain-lain">
+        <menu>
+            <item
+                android:id="@+id/nav_alur"
+                android:icon="@drawable/ic_petunjuk_black_24dp"
+                android:title="Alur Pelayanan" />
+            <item
+                android:id="@+id/nav_layanan"
+                android:icon="@drawable/ic_layanan_pelanggan_black_24dp"
+                android:title="Layanan Pelanggan" />
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_keluar_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
